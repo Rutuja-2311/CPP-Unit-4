@@ -77,4 +77,160 @@ program.exe
 
 ## Files Used
 
-|
+| File Name | Purpose |
+|---|---|
+| `message.txt` | Stores sample text data for file-handling programs |
+| `notes.txt` | Stores user-entered lines |
+| `message_copy.txt` | Stores a copy of text from another file |
+| `cpp_lines.txt` | Stores selected lines containing `C++` |
+| `students.txt` | Stores text-based student records |
+| `students_temp.txt` | Temporary file used while updating student records |
+| `navigation.txt` | Used for file-pointer navigation demonstrations |
+| `students.dat` | Stores binary student records |
+| `records.dat` | Stores binary records for random access |
+| `library_books.txt` | Stores library book records |
+
+## Notes
+
+- All programs are written in standard **C++17 or later**.
+- Each `.cpp` file demonstrates a specific file-handling concept.
+- Text files are handled using `ifstream`, `ofstream`, and `fstream`.
+- `getline()` is used to read complete lines from text files.
+- `std::ios::app` is used to append data without removing existing contents.
+- `stringstream` is used for parsing delimiter-separated records.
+- Temporary files are used when updating text-file records.
+- File pointers are demonstrated using `seekg()`, `seekp()`, `tellg()`, and `tellp()`.
+- Binary files use `read()` and `write()` with fixed-size records.
+- File-stream state functions are used for error handling.
+- The mini-projects demonstrate practical applications of file handling.
+- Add screenshots of your compiled output to a `screenshots/` folder if your submission requires visual proof of execution.
+
+## Important C++ Concepts Covered
+
+- File Handling
+- File Streams
+- `ifstream`
+- `ofstream`
+- `fstream`
+- `open()`
+- `close()`
+- `getline()`
+- File opening modes
+- `std::ios::in`
+- `std::ios::out`
+- `std::ios::app`
+- `std::ios::ate`
+- `std::ios::trunc`
+- `std::ios::binary`
+- Text file processing
+- String searching
+- Structured text records
+- `stringstream`
+- Temporary file workflow
+- File pointers
+- `seekg()`
+- `seekp()`
+- `tellg()`
+- `tellp()`
+- Binary file handling
+- `read()`
+- `write()`
+- Random file access
+- File error handling
+- `good()`
+- `eof()`
+- `fail()`
+- `bad()`
+- File-based CRUD operations
+- Classes and objects
+- Object-oriented file applications
+
+## Learning Objectives
+
+After completing these programs, students should be able to:
+
+1. Create, open, close, read, write, and append text files.
+2. Use `ifstream`, `ofstream`, and `fstream` correctly.
+3. Check file-opening and file-operation errors.
+4. Process files line-by-line and word-by-word.
+5. Store and retrieve structured records.
+6. Use file pointers with `seekg()`, `seekp()`, `tellg()`, and `tellp()`.
+7. Work with binary files using `read()` and `write()`.
+8. Perform random access in binary files.
+9. Update text-file records using temporary files.
+10. Build basic file-based CRUD applications.
+11. Apply file handling concepts to student record management.
+12. Apply object-oriented programming concepts to file-based library applications.
+
+## Screenshots
+
+If screenshots are required, create a `screenshots/` folder and add the output images for each program.
+
+```text
+screenshots/
+├── 01_output.png
+├── 02_output.png
+├── 03_output.png
+├── 04_output.png
+├── 05_output.png
+├── 06_output.png
+├── 07_output.png
+├── 08_output.png
+├── 09_output.png
+├── 10_output.png
+├── 11_output.png
+├── 12_output.png
+├── 13_output.png
+├── 14_output.png
+├── 15_output.png
+└── 16_output.png
+```
+
+Example Markdown reference:
+
+```markdown
+![Program 1 Output](screenshots/01_output.png)
+```
+
+## Submission Structure
+
+```text
+Unit-IV-Files-and-Streams/
+│
+├── README.md
+│
+├── 01_write_text_to_file.cpp
+├── 02_read_file_line_by_line.cpp
+├── 03_append_data_to_file.cpp
+├── 04_copy_file.cpp
+├── 05_count_file_contents.cpp
+├── 06_search_word.cpp
+├── 07_student_records.cpp
+├── 08_read_search_student.cpp
+├── 09_update_student_record.cpp
+├── 10_file_pointer_navigation.cpp
+├── 11_binary_records.cpp
+├── 12_random_binary_access.cpp
+├── 13_file_error_handling.cpp
+├── 14_file_statistics.cpp
+├── 15_student_record_manager.cpp
+├── 16_library_record.cpp
+│
+└── screenshots/
+    ├── 01_output.png
+    ├── 02_output.png
+    ├── 03_output.png
+    ├── 04_output.png
+    ├── 05_output.png
+    ├── 06_output.png
+    ├── 07_output.png
+    ├── 08_output.png
+    ├── 09_output.png
+    ├── 10_output.png
+    ├── 11_output.png
+    ├── 12_output.png
+    ├── 13_output.png
+    ├── 14_output.png
+    ├── 15_output.png
+    └── 16_output.png
+```
